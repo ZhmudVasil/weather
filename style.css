@@ -3,27 +3,35 @@
 	padding: 0px;
 	box-sizing: border-box;
 	background-color: #3398CC;
+	font-family: verdana, sans-serif;
+	color:white;
 }
 body{
-	border: 10px solid #2C80A4;
+	border: 15px solid #2C80A4;
 	color: white;
 	padding-left: 15%;
 	padding-right: 15%;
+	min-height: 100%;
+	margin: auto auto;
 }
-main{
 
-}
 ul{
-	display: block;
-	border:3px solid white;
+	display: inline-block;
+	width: 700px;
+	border:2px solid white;
 	text-align: center;
 	font-size: 0;
-	margin-top: 20px;
+	margin-top: 40px;
+	margin: 0 auto;
 }
+ul:hover li{
+opacity: 0.6;
+}
+
 h1{
 	margin-top: 20px;
 }
-article >span {
+span {
 	display: inline-block;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -31,21 +39,28 @@ article >span {
 
 li{
 	display: inline-block;
-	border:3px solid white;
+	border:2px solid white;
 	width: 25%;
-	height: 80px;
+	height: 100px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	font-size: 25px;
+	font-size: 16px;
 	margin: 0px;
 
 }
-span{
+ul> li:hover{
+opacity: 1;
+}
+i, span{
 	background-color: transparent;
+	display: block;
+	margin-bottom: 10px;
+	opacity: .6;
 }
-i{
-	color: white;
+.wi{
+	font-size: 25px;
 }
+
 .lisbon{
 width: 50%;
 background-color: 	#3398CC;
